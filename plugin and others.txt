@@ -1,0 +1,12 @@
+- Manifest:
+
+<uses-permission android:name="android.permission.INTERNET" />
+
+<application>
+	android:allowBackup="true"
+</application>
+
+- Plugin in gradle:
+
+implementation 'com.squareup.retrofit2:retrofit:2.4.0'
+    implementation 'com.squareup.retrofit2:converter-gson:2.4.0'
